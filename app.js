@@ -34,11 +34,10 @@ app.set('views', path.join(__dirname, './app_server/views'))
 
 
 var connection = mysql.createConnection({
-    host: '127.0.0.1',
-    user: 'root',
-    password: '',
-    database: 'node_chat',
-    port: '3308'
+    host: 'us-cdbr-iron-east-01.cleardb.net',
+    user: 'b7225cea6b9b86',
+    password: '41c9cf9a',
+    database: 'heroku_1f71a314b867c21'
 });
 
 app.get('/', (req, res) => {
